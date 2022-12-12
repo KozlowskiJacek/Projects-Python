@@ -1,7 +1,7 @@
 import json
 from modules import ResaleScrapper
 
-user_id = 123456
+user_id = int(input("Wpisz user_id: "))
 
 resale_scrapper = ResaleScrapper(user_id)
 content = resale_scrapper.get_offers()
